@@ -1,7 +1,7 @@
 from google_play_scraper import reviews, Sort
 import pandas as pd
 
-def fetch_reviews(app_id: str, bank_name: str, max_reviews: int = 500) -> pd.DataFrame:
+def fetch_reviews(app_id: str, bank_name: str, max_reviews: int = 400) -> pd.DataFrame:
     all_reviews = []
     count = 0
     next_token = None
